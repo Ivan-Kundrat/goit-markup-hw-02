@@ -1,0 +1,103 @@
+/*Основний колір тексту #212121*/
+/*Другорядний колір тексту #757575*/
+/* білий колір #FFFFFF */
+/* колір акценту #2196F3 */
+/* колір футера тексту rgba(255, 255, 255, 0.6) */
+/* Другорядний колір фону #F5F4FA*/
+/* Колір фону футера #2F303A */
+:root {
+  --primery-text-color: #212121;
+  --section-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-bcg-color: #ffffff;
+  --footer-bcg-color: #2f303a;
+}
+body {
+  background-color: var(--primery-bcg-color);
+  color: var(--primery-text-color);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+a > span {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.comunication-nav {
+  color: var(--section-text-color);
+}
+.comunication-nav .link:hover,
+.comunication-nav .link:focus {
+  color: var(--accent-color);
+}
+.main-title {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+.main-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.section-text {
+  color: var(--section-text-color);
+}
+
+.section .picture {
+  background-color: #f5f4fa;
+}
+.section .picture:hover {
+  background-color: var(--accent-color);
+}
+
+.activity-title {
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+.icon {
+  background-color: var(--primery-bcg-color);
+}
+.icon:hover {
+  background-color: var(--accent-color);
+}
+footer {
+  background-color: var(--footer-bcg-color);
+  color: #ffffff;
+}
+.footer > span {
+  color: var(--accent-color);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: var(--accent-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.4);
+}
+.section .button {
+  background-color: #f5f4fa;
+}
+.section .button:hover,
+.section .button:focus {
+  background-color: var(--accent-color);
+}
+.section .text-hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
