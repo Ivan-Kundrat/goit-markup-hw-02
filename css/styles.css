@@ -35,14 +35,15 @@ ul {
 .logo span {
   color: var(--accent-color);
 }
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -52,7 +53,7 @@ ul {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .comunication-nav .link:hover,
@@ -83,7 +84,7 @@ ul {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
 }
 .recipe-success .header {
@@ -157,7 +158,6 @@ footer {
   line-height: 1.7;
 }
 .footer-call {
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -172,6 +172,7 @@ footer {
 .filter .button {
   background-color: #f5f4fa;
 
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
