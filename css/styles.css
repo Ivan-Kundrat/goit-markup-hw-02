@@ -35,6 +35,9 @@ ul {
 .logo span {
   color: var(--accent-color);
 }
+.address {
+  font-style: normal;
+}
 .site-nav {
   font-weight: 500;
   font-size: 14px;
